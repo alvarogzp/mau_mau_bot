@@ -254,7 +254,7 @@ msgstr[1] ""
 #, python-format
 msgid ""
 "{name1} was skipped four times in a row and has been removed from the game.\n"
-"Next player: {name2}
+"Next player: {name2}"
 msgstr ""
 "{name1} ha sido saltado cuatro veces consecutivas y ha sido eliminado de la "
 "partida.\n"
