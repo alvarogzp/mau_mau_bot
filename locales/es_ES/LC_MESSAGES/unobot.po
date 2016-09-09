@@ -112,7 +112,7 @@ msgstr ""
 
 #: bot.py:152
 msgid "The lobby is closed"
-msgstr "La sala esta cerrada"
+msgstr "La sala está cerrada"
 
 #: bot.py:156
 msgid "No game is running at the moment. Create a new game with /new"
@@ -129,7 +129,7 @@ msgstr "Te uniste a la partida"
 
 #: bot.py:179 bot.py:191
 msgid "You are not playing in a game in this group."
-msgstr "No estas jugando una partida en este grupo."
+msgstr "No estás jugando una partida en este grupo."
 
 #: bot.py:197 bot.py:258 bot.py:595
 msgid "Game ended!"
@@ -137,7 +137,7 @@ msgstr "¡Fin de la partida!"
 
 #: bot.py:201
 msgid "Okay. Next Player: {name}"
-msgstr "Okay. Siguiente Jugador: {name}"
+msgstr "Vale. Siguiente jugador: {name}"
 
 #: bot.py:219
 msgid "Game not found."
@@ -149,7 +149,7 @@ msgstr "De vuelta al último grupo"
 
 #: bot.py:227
 msgid "Please switch to the group you selected!"
-msgstr "¡Por favor ve al grupo seleccionado!"
+msgstr "¡Por favor, ve al grupo seleccionado!"
 
 #: bot.py:233
 #, python-format
@@ -163,7 +163,7 @@ msgstr ""
 #: bot.py:260
 #, python-format
 msgid "Removing {name} from the game"
-msgstr "Removiendo a {name} de la partida"
+msgstr "Quitando a {name} de la partida"
 
 #: bot.py:273
 msgid "There is no game running in this chat. Create a new one with /new"
@@ -185,9 +185,9 @@ msgid ""
 "Use /close to stop people from joining the game.\n"
 "Enable multi-translations with /enable_translations"
 msgstr ""
-"Primer Jugador: {name}\n"
+"Primer jugador: {name}\n"
 "Usa /close para evitar que la gente se una a la partida.\n"
-"Habilita multi-traducciones con /enable_translations"
+"Habilita multitraducciones con /enable_translations"
 
 #: bot.py:321
 msgid "Please select the group you want to play in."
@@ -204,13 +204,13 @@ msgstr "Sala cerrada. No se pueden unir más jugadores a la partida."
 #: bot.py:348 bot.py:373
 #, python-format
 msgid "Only the game creator ({name}) can do that."
-msgstr "Solo el creador de la partida ({name}) puede hacer eso."
+msgstr "Solo ({name}), el creador de la partida, puede hacer eso."
 
 #: bot.py:349
 #, python-format
 msgid "Enabled multi-translations. Disable with /disable_translations"
 msgstr ""
-"Multi-traducciones habilitadas. Deshabilítalas con /disable_translations"
+"Multitraducciones habilitadas. Deshabilítalas con /disable_translations"
 
 #: bot.py:377
 #, python-format
@@ -222,7 +222,7 @@ msgstr ""
 
 #: bot.py:368
 msgid "Opened the lobby. New players may /join the game."
-msgstr "Sala abierta. Nuevos jugadores darle al /join."
+msgstr "Sala abierta. Nuevos jugadores, dadle al /join."
 
 #: bot.py:386
 msgid "You are not playing in a game in this chat."
@@ -254,9 +254,9 @@ msgstr[1] ""
 #, python-format
 msgid ""
 "{name1} was skipped four times in a row and has been removed from the game.\n"
-"Next player: {name2}"
+"Next player: {name2}
 msgstr ""
-"{name1} fue saltado cuatro veces consecutivas y ha sido removido de la "
+"{name1} ha sido saltado cuatro veces consecutivas y ha sido eliminado de la "
 "partida.\n"
 "Siguiente Jugador {name2}"
 
@@ -266,13 +266,13 @@ msgid ""
 "{name} was skipped four times in a row and has been removed from the game.\n"
 "The game ended."
 msgstr ""
-"{name} fue saltado cuatro veces consecutivas y ha sido removido de la "
+"{name} ha sido saltado cuatro veces consecutivas y ha sido eliminado de la "
 "partida.\n"
 "Partida finalizada."
 
 #: bot.py:455
 msgid "All news here: https://telegram.me/unobotupdates"
-msgstr "Todas las noticias aquí: https://telegram.me/unobotupdates"
+msgstr "Todas las noticias, aquí: https://telegram.me/unobotupdates"
 
 #: bot.py:513
 #, python-format
@@ -282,11 +282,11 @@ msgstr "Partida actual: {group}"
 #: bot.py:545
 #, python-format
 msgid "Cheat attempt by {name}"
-msgstr "Intento de trampa por {name}"
+msgstr "Intento de trampa de {name}"
 
 #: bot.py:562
 msgid "Next player: {name}"
-msgstr "Siguiente Jugador: {name}"
+msgstr "Siguiente jugador: {name}"
 
 #: bot.py:572
 #, python-format
@@ -300,7 +300,7 @@ msgstr "Por favor, selecciona un color"
 #: bot.py:591
 #, python-format
 msgid "{name} won!"
-msgstr "¡{name} ganó!"
+msgstr "¡{name} ha ganado!"
 
 #: bot.py:613 bot.py:635 bot.py:647
 msgid "There are no more cards in the deck."
@@ -309,12 +309,12 @@ msgstr "No hay más cartas en la baraja."
 #: bot.py:627
 #, python-format
 msgid "Bluff called! Giving 4 cards to {name}"
-msgstr "¡Engaño descubierto! {name} recibe 4 cartas"
+msgstr "¡Farol descubierto! {name} recibe 4 cartas"
 
 #: bot.py:639
 #, python-format
 msgid "{name1} didn't bluff! Giving 6 cards to {name2}"
-msgstr "¡{name1} no ha engañado!,  {name2} recibe 6 cartas"
+msgstr "¡{name1} no ha engañado! {name2} recibe 6 cartas"
 
 #: results.py:38
 msgid "Choose Color"
@@ -371,20 +371,20 @@ msgstr "Comenzar la partida con /start"
 #, python-format
 msgid "Drawing {number} card"
 msgid_plural "Drawing {number} cards"
-msgstr[0] "Robando {number} carta"
-msgstr[1] "Robando {number} cartas"
+msgstr[0] "Roba {number} carta"
+msgstr[1] "Roba {number} cartas"
 
 #: results.py:136
 msgid "Pass"
-msgstr "Pasar"
+msgstr "Pasa"
 
 #: results.py:148
 msgid "I'm calling your bluff!"
-msgstr "Me estas engañando!"
+msgstr "¡Te estás tirando un farol!"
 
 #: settings.py:39
 msgid "Please edit your settings in a private chat with the bot."
-msgstr "Por favor, edita tus ajustes en un chat privado con el bot."
+msgstr "Por favor, edita primero los ajustes con el bot en privado."
 
 #: settings.py:49
 msgid "Enable statistics"
@@ -404,19 +404,19 @@ msgstr "Ajustes"
 
 #: settings.py:68
 msgid "Enabled statistics!"
-msgstr "Estadísticas habilitadas!"
+msgstr "¡Estadísticas habilitadas!"
 
 #: settings.py:70
 msgid "Select locale"
-msgstr "Seleccionar región"
+msgstr "Seleccionar idioma"
 
 #: settings.py:81
 msgid "Deleted and disabled statistics!"
-msgstr "Estadísticas borradas y deshabilitadas! "
+msgstr "¡Estadísticas borradas y deshabilitadas! "
 
 #: settings.py:94
 msgid "Set locale!"
-msgstr "Región seleccionada!"
+msgstr "¡Idioma seleccionado!"
 
 #: simple_commands.py
 msgid ""
@@ -435,7 +435,7 @@ msgstr[1] "{number} partidas jugadas"
 #: simple_commands.py
 msgid "{number} first place"
 msgid_plural "{number} first places"
-msgstr[0] "{number} primero lugare"
+msgstr[0] "{number} primer lugar"
 msgstr[1] "{number} primeros lugares"
 
 #: simple_commands.py
